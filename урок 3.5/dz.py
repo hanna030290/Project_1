@@ -10,7 +10,7 @@ class Alphabet:
         print(self.letters)
 
     def letters_num(self):
-        len(self.letters)
+        return len(self.letters)
 
 class EngAlphabet:
     __letters_num = 26
@@ -31,10 +31,11 @@ class EngAlphabet:
         print("English Example:\nI live on planet earth.")
 
 
-if __name__ == '__main__':
-    eng_alphabet = EngAlphabet()
-    eng_alphabet.print()
-    print(eng_alphabet.letters_num())
-    print(eng_alphabet.is_en_letter('F'))
-    print(eng_alphabet.is_en_letter('Щ'))
-    EngAlphabet.example()
+if __name__ == '__maim__':
+eng_alphabet = EngAlphabet()
+eng_alphabet.print()
+
+print(eng_alphabet.letters_num())
+print(eng_alphabet.is_en_letter('F'))
+print(eng_alphabet.is_en_letter('Щ'))
+EngAlphabet.example()

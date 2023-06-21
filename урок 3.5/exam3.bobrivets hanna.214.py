@@ -11,6 +11,18 @@
 # s = input('Введите слово: ')
 # print(palindrome_check(s))
 
+# вариант 2
+#
+# def palindrom(a):
+#     if a == a[::-1]:
+#         print("yes")
+#     else:
+#         print("no")
+#
+#
+# str_ = input("Введите слово для проверки: ")
+# palindrom(str_)
+
 # Задача 3
 
 class Tomato:
